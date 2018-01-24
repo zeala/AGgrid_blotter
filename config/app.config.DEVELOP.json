@@ -1,0 +1,25 @@
+{
+  "environment": "{{environment_name}}",
+  "showEnvironmentHeader": true,
+  "endpoints": {
+    "gateway": "/ws"
+  },
+  "excludedWidgets": [],
+  "disableTimeInForce": false,
+  "kinesisConfiguration": {
+    "region": "{{aws_region}}",
+    "identityPoolId": "{{cognito_identity_pool_id}}",
+    "streamName": "{{kinesis_stream_name}}"
+  },
+  "disableInBrowser": false,
+  "openFin": {
+    "installerGenerator": {
+      "url": "https://install.openfin.co/download",
+      "config": "/openfin/app.json",
+      "options": {
+        "fileName": "nfex-match-develop",
+        "supportEmail": "support@autilla.com"
+      }
+    }
+  }
+}

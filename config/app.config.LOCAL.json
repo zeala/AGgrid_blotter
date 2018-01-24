@@ -1,0 +1,10 @@
+{
+  "environment": "local",
+  "showEnvironmentHeader": true,
+  "endpoints": {
+    "gateway": "http://localhost:8080/ws"
+  },
+  "excludedWidgets": [],
+  "disableTimeInForce": false,
+  "disableInBrowser": false
+}

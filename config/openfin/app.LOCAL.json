@@ -1,0 +1,25 @@
+{
+    "devtools_port": 9090,
+    "splashScreenImage": "http://localhost:3000/images/splash.png",
+    "startup_app": {
+        "name": "AG-Grid Blotter",
+        "url": "http://localhost:3000",
+        "uuid": "ag-grid blotter",
+        "taskbarIcon": "http://localhost:3000/images/blotter.ico",
+        "autoShow": true,
+        "defaultWidth": 1280,
+        "defaultHeight": 900,
+        "minWidth": 800,
+        "minHeight": 600,
+        "resizable": true,
+        "maximizable": true,
+        "accelerator": {
+            "zoom": true,
+            "devtools": true
+        }
+    },
+    "runtime": {
+        "version": "8.56.24.41"
+    },
+    "shortcut": {}
+}
